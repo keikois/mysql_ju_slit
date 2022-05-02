@@ -3,7 +3,7 @@ jupyterlabとMySQL&amp;phpMyAdminとstreamlitがセットになったdocker-comp
 
 ## 使い方
 
-- mysql_ju_slitをForkする
+- ターミナルでgit clone https://github.com/keikois/mysql_ju_slit.git を実行
 - cd mysql_ju_slit　をターミナルで実行
 - docker-compose up -d を実行
 - localhost:8888でjupyterlabが起動
