@@ -12,3 +12,6 @@ jupyterlabとMySQL&amp;phpMyAdminとstreamlitがセットになったdocker-comp
 
 - streamlitはcontrol + C で終了します。
 - docker-compose down　でdocker-composeを終了できます。
+
+docker-composeのdatabase名の初期値はtest_databaseです。
+docker-composeの中の名前やパスワードを変えてください。
