@@ -2,7 +2,13 @@
 jupyterlabとMySQL&amp;phpMyAdminとstreamlitがセットになったdocker-composeのディレクトリです。
 
 ## 使い方
-
+```
+mysql_ju_slit
+├── db => (MySQLのデータ保存場所)
+├── work => （jupyterlabのコードを保存する場所）
+├── struns => (streamlitを実行するapp.pyを入れる場所。必要に応じ、requirements.txtも、ここにおいてください。)       
+└── docker-compose.yml
+```
 - ターミナルで下記のコードを実行
 ```
 git clone https://github.com/keikois/mysql_ju_slit.git
