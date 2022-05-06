@@ -26,3 +26,16 @@ docker-compose up -d
 
 - streamlitはcontrol + C で終了します。
 - docker-compose down　でdocker-composeを終了できます。
+
+## git cloneが終ったら
+git cloneが終ったら、リモートリポジトリを削除するコマンドを使ってください。
+
+Git のリモートリポジトリを削除するコマンド
+```
+git remote rm origin 
+```
+Gitのリモートリポジトリを確認するコマンド
+- 何も書かれていないことを確認してください。
+```
+git remote -v 
+```
