@@ -40,7 +40,8 @@ Gitのリモートリポジトリを確認するコマンド
 git remote -v 
 ```
 ## M1Mac対応
-9行目のシャープを外して保存してから実行してください。
+
+docker-compose.ymlの9行目のシャープを外して保存してから実行してください。
 ```
-# platform: linux/x86_64
+platform: linux/x86_64
 ```
