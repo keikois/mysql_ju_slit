@@ -40,3 +40,10 @@ Gitのリモートリポジトリを確認するコマンド
 ```
 git remote -v 
 ```
+## m1　macの人
+https://github.com/keikois/mysql_ju_slit_m1
+m1用のdocker-composeを、アップしました。
+下記からクローンしてください。
+```
+git clone git@github.com:keikois/mysql_ju_slit_m1.git
+```
