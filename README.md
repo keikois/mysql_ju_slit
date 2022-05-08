@@ -1,5 +1,6 @@
 # mysql_ju_slit
 jupyterlabとMySQL&amp;phpMyAdminとstreamlitがセットになったdocker-composeのディレクトリです。
+## intel版
 
 ## 使い方
 ```
@@ -38,10 +39,4 @@ Gitのリモートリポジトリを確認するコマンド
 - 何も書かれていないことを確認してください。
 ```
 git remote -v 
-```
-## M1Mac対応
-
-docker-compose.ymlの9行目のシャープを外して保存してから実行してください。
-```
-platform: linux/x86_64
 ```
